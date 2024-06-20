@@ -1,22 +1,10 @@
 # Edtech Project
 
 ```markdown
-# EdTech Platform - Full Stack Application (MERN)
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Project Structure](#project-structure)
-7. [API Documentation](#api-documentation)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+# Learning Platform - Full Stack Application (MERN)
 
 ## Introduction
-Welcome to the EdTech Platform, a full stack educational technology application built using the MERN (MongoDB, Express.js, React, Node.js) stack. This platform provides a comprehensive solution for online education, enabling educators to create and manage courses, and allowing students to enroll in and complete courses.
+Welcome to the EdTech Platform, a full-stack educational technology application built using the MERN (MongoDB, Express.js, React, Node.js) stack. This platform provides a comprehensive solution for online education, enabling educators to create and manage courses, and allowing students to enroll in and complete courses.
 
 ## Features
 - **User Authentication:** Secure user registration and login using JWT.
@@ -24,17 +12,12 @@ Welcome to the EdTech Platform, a full stack educational technology application 
 - **Course Management:** Create, update, delete, and view courses.
 - **Lesson Management:** Add, edit, delete, and view lessons within courses.
 - **Enrollment:** Students can enroll in courses and track their progress.
-- **Interactive Quizzes:** Integrated quizzes for assessing student knowledge.
 - **Discussion Forums:** Enable communication between students and educators.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 
 ## Tech Stack
 - **Frontend:**
   - React
-  - Redux (for state management)
-  - React Router (for navigation)
-  - Axios (for API calls)
-  - Bootstrap (for styling)
 
 - **Backend:**
   - Node.js
@@ -45,27 +28,23 @@ Welcome to the EdTech Platform, a full stack educational technology application 
 - **Development Tools:**
   - Webpack (module bundler)
   - Babel (JavaScript compiler)
-  - ESLint (code linting)
   - Prettier (code formatting)
-  - Jest (testing framework)
-  - Docker (containerization)
 
 ## Installation
 ### Prerequisites
 - Node.js (>=14.x)
 - MongoDB (>=4.x)
-- Docker (optional, for containerization)
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/edtech-platform.git
-cd edtech-platform
+git clone https://github.com/AnuragSharma5893/Learning-Platform.git
+cd Learning-Project
 ```
 
 ### Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd backend
+   cd server
    ```
 2. Install dependencies:
    ```bash
@@ -98,12 +77,12 @@ cd edtech-platform
 
 ## Usage
 1. Open your browser and navigate to `http://localhost:3000`.
-2. Register as a new user or log in with existing credentials.
-3. Explore the platform's features by creating courses, enrolling in courses, participating in forums, etc.
+2. Register as a new user or login with existing credentials.
+3. Explore the platform's features by creating courses, enrolling, participating in forums, etc.
 
 ## Project Structure
 ```plaintext
-edtech-platform/
+Learning-platform/
 │
 ├── backend/
 │   ├── controllers/
@@ -119,7 +98,6 @@ edtech-platform/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
-│   │   ├── redux/
 │   │   ├── utils/
 │   │   ├── App.js
 │   │   ├── index.js
@@ -162,13 +140,11 @@ We welcome contributions to improve the EdTech Platform. Please follow these ste
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 For any inquiries or feedback, please contact:
-- **Name:** Your Name
-- **Email:** your.email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
+- **Name:** Anurag Sharma
+- **Email:** anuragsharma58693@gmail.com@example.com
+- **GitHub:** github.com/AnuragSharma5893
 ```
-
-This README file provides a comprehensive overview of your edtech project, including installation instructions, usage details, and information on the tech stack and project structure. It is designed to give recruiters a clear understanding of the project and your skills.
