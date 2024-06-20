@@ -145,6 +145,6 @@ This project is licensed under the MIT License.
 ## Contact
 For any inquiries or feedback, please contact:
 - **Name:** Anurag Sharma
-- **Email:** anuragsharma58693@gmail.com@example.com
+- **Email:** anuragsharma58693 [at] gmail [dot] com
 - **GitHub:** github.com/AnuragSharma5893
 ```
